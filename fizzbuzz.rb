@@ -3,8 +3,8 @@ def fizzbuzz(number)
   #  "FizzBuzz"
   if (number % 3==0)
   "Fizz"
-#elseif (number % 5==0)
-#{}"Buzz"
+  elseif (number % 5==0)
+  "Buzz"
 else
   nil
 end

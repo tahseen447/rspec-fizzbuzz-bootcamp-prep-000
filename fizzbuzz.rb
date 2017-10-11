@@ -9,5 +9,5 @@ elseif (b==0)
 return "Buzz"
 else
   return nil
-end 
+end
 end

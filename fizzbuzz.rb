@@ -4,12 +4,12 @@ def fizzbuzz(number)
   puts "#{a}"
   puts "#{b}"
   if(a==0 && b==0)
-    return "FizzBuzz"
-  else if(a==0)
-  return "Fizz"
-else if (b==0)
-return "Buzz"
+    "FizzBuzz"
+  elseif (a==0)
+  "Fizz"
+elseif (b==0)
+"Buzz"
 else
-  return nil
+  nil
 end
 end

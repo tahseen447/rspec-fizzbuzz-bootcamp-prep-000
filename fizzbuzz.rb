@@ -5,9 +5,9 @@ def fizzbuzz(number)
   puts "#{b}"
   if(a==0 && b==0)
     return "FizzBuzz"
-  elseif(a==0)
+  else if(a==0)
   return "Fizz"
-elseif (b==0)
+else if (b==0)
 return "Buzz"
 else
   return nil

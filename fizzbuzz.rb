@@ -1,13 +1,13 @@
 def fizzbuzz(number)
-  a = number % 3
+  a = 
   b = number % 5
   puts "#{a}"
   puts "#{b}"
-  if(a==0 && b==0)
+  if(number % 3 && number % 5)
     "FizzBuzz"
-  elseif (a==0)
+  elseif (number % 3)
   "Fizz"
-elseif (b==0)
+elseif (number % 50)
 "Buzz"
 else
   nil
